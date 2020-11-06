@@ -1,7 +1,32 @@
 {
-  "categories": [
+  "popularCategories": [
     { "id": 1, "title": "Dostava hrane" },
     { "id": 2, "title": "Elektronika" },
     { "id": 3, "title": "Medical service" }
+  ],
+  "servicesCategories": [
+    {
+      "id": 0,
+      "name": "Kurirske usluge",
+      "checked": false,
+      "subCategories": {
+        "0": {
+          "id": 1,
+          "name": "Dostava Hrane",
+          "checked": false
+        },
+        "1": {
+          "id": 2,
+          "name": "Dostava Zabranjenih substanci",
+          "checked": false
+        }
+      }
+  },
+    {
+      "id": 3,
+      "name": "Mehanicar",
+      "checked": false,
+      "subCategories": null
+    }
   ]
 }
